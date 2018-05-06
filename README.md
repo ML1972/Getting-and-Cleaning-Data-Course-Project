@@ -20,7 +20,7 @@ At the beginning of **run_analysis.R** a short description of goals is given
 
 ## SOURCE CODE STRUCTURE
 
-In the following chapters a short description of the source code will be given, to give an overview what will be done in each step. The variables used are defined in described in the code book *CODEBOOK.MD*. 
+In the following chapters a short description of the source code will be given, to give an overview what will be done in each step. The variables used are defined and described in the code book *CODEBOOK.MD*. 
 
 ### Preliminary settings
 
