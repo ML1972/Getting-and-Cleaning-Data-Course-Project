@@ -23,3 +23,65 @@ Full zip file name including the **mypath**, **Datadir** and **set_zipfnmae**
 #### fileUrl
 The data URL is stored in this variable
 
+#### destfile
+Destination file = **DataZip**
+
+#### UCI_dir
+UCI HAR Dataset directory
+
+#### test_dir
+Directory of the TEST data set and files
+
+#### train_dir
+Directory of the TRAIN data set and files
+
+#### Feature_fname
+Filename of file *features.txt* including the path where to find mentioned file
+
+#### ActivityLabels_fname
+Filename of file *activity_labels.txt* including the path where to find mentioned file
+
+#### TestSubject_fname
+Filename of file *subject_test.txt* including the path where to find mentioned file
+
+#### TestX_fname
+Filename of file *X_test.txt* including the path where to find mentioned file
+
+#### TestY_fname
+Filename of file *y_test.txt* including the path where to find mentioned file
+
+#### TrainSubject_fname
+Filename of file *subject_train.txt* including the path where to find mentioned file
+
+#### TrainX_fname
+Filename of file *X_train.txt* including the path where to find mentioned file
+
+#### TrainY_fname
+Filename of file *y_train.txt* including the path where to find mentioned file
+
+#### TestSubject_data
+Table where data from **TestSubject_fname** is stored
+
+#### TestX_data
+Table where data from **TestX_fname** is stored
+
+#### TestY_data
+Table where data from **TestY_fname** is stored
+
+#### TrainSubject_data
+Table where data from **TrainSubject_fname** is stored
+
+#### TrainX_data
+Table where data from **TrainX_fname** is stored
+
+#### TrainY_data
+Table where data from **TrainY_fname** is stored
+
+#### Train_data
+Merged data set of the raw *TRAIN* data **TrainX_data**, **TrainY_data** and **TrainSubject_data** 
+
+#### Test_data
+Merged data set of the raw *TEST* data **TestX_data**, **TestY_data** and **TestSubject_data**
+
+### Joint_data
+Merged raw data built up with **Train data** and **Test data** 
