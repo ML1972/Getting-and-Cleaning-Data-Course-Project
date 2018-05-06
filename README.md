@@ -26,7 +26,7 @@ In the following chapters a short description of the source code will be given, 
 
 1. All necessary packages for this source code will be loaded and any existing objects will be removed from the environment.
 2. The directory, where the zipped data should be loaded, is defined ("SamsungData") and if necessary created.
-3. The data from given URL(see above) will be downloaded and unzipped into the directory mentiond in point 2.
+3. The data from given URL (see above) will be downloaded and unzipped into the directory mentiond in point 2.
 4. Different directories and filenames are defined.
 
 ### Step 1: Merging data sets
