@@ -31,7 +31,16 @@ In the following chapters a short description of the source code will be given, 
 
 ### Step 1: Merging data sets
 
+1. The different *TEST* data (Subject, X-data, Y-data) are readed from the corresponding directory
+2. The different *TRAIN* data (Subject, X-data, Y-data) are readed from the corresponding directory
+3. All data readed in point 1 and point 2 are merged to one data set (hereinafter known as *Joint_data*)
+4. All unnecessary variables are removed from the environment.
+
 ### Step 2: Extracting only measurements on the mean and standard deviation for each measurement
+
+1. The *feature* file is readed and the data labels for the *Joint_data* are set.
+2. A subsetted data set is generated (hereinafter known as *Reduced_Data*) from *Joint_data*. This new data set *Reduced_Data* includes only variables which includes mean and standard deviation values, as well as the activities and subjects
+3. All unnecessary variables are removed from the environment.
 
 ### Step 3: Name activities in data set with help of descriptive activity names
 
