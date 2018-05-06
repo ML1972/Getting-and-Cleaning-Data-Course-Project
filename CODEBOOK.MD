@@ -117,7 +117,7 @@ Table where the average of each variable is stored sorted first by activity and 
 Directory where output file is stored
 
 #### output_fname
-Output filename (Mean_Data_Set.dat) where **groupmean** is stored
+Output filename (Mean_Data_Set.txt) where **groupmean** is stored
 
 ## FUNCTION
 Function *function(x) colMeans(x[, firstcoi:lastcoi])* calculates the average value of each column of range of interest
