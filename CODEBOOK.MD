@@ -8,7 +8,7 @@ This document describes any variables, data, and any transformations or work per
 ## VARIABLE DEFINITION
 The variable definition are listed in order of appearance.
 
-* mypath
+#### mypath
   Is the path of the work directory
 
 *
