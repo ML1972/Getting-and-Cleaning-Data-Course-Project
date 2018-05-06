@@ -83,5 +83,42 @@ Merged data set of the raw *TRAIN* data **TrainX_data**, **TrainY_data** and **T
 #### Test_data
 Merged data set of the raw *TEST* data **TestX_data**, **TestY_data** and **TestSubject_data**
 
-### Joint_data
-Merged raw data built up with **Train data** and **Test data** 
+#### Joint_data
+Merged raw data built up with **Train data** and **Test data**
+
+#### Feature_data
+Table where data from **Feature_fname** is stored
+
+#### Data_Labels
+Vector where data labels are stored
+
+#### Reduced_Labels
+Vector where only the labels of interest are stored
+
+#### Reduced_Data
+Table where only the variables of interes are stored
+
+#### ActivityLabels_data
+Table where data from **ActivityLabels_fname** is stored
+
+#### coi
+Column of interest
+
+#### lastcoi
+Last column of interest
+
+#### firstcoi
+First column of interest
+
+#### groupmean
+Table where the average of each variable is stored sorted first by activity and then by subject
+
+#### Resultdir
+Directory where output file is stored
+
+#### output_fname
+Output filename (Mean_Data_Set.dat) where **groupmean** is stored
+
+## FUNCTION
+FUnction *function(x) colMeans(x[, firstcoi:lastcoi])* calculates the average value of each column of range of interest
+
