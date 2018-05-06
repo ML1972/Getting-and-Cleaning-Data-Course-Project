@@ -58,7 +58,12 @@ Since the column names in *Reduced_Data* are not easy to read, following suggest
 + 'Acc' will be replaced by ' Acceleration ' 
 + 'Gyro' will be replaced by ' Angular velocity '
 + 'Mag' will be replaced by ' Magnitude '
++ ' -' will be replaced by '-'
++ 'BodyBody' will be replaced by 'Body'
 + '()' will be removed
-+
++ Double spaces will be replaced by simple space
+
+*Example:
+
 
 ### Step 5: Creation of tidy data set with average of each variable for each activity and each subject
