@@ -74,4 +74,4 @@ In the last step of the source code the average value for each activity and each
 3. A *Result* directory is created and the output file *Mean_Data_Set.dat* will be saved in there.
 4. All unnecessary variables are removed from the environment.
 
-After executing **run_analysis.R** only *Reduced_Data* and the variable *mypath* (see CODEBOOK.MD) are stored in the environment
+After executing **run_analysis.R** only *Reduced_Data* and the variable *mypath* (see CODEBOOK.MD) are stored in the environment.
