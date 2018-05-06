@@ -50,7 +50,7 @@ In the following chapters a short description of the source code will be given, 
 4. All unnecessary variables are removed from the environment.
 
 ### Step 4: Replace data set labels with appropiate descriptive variable names
-Since the column names in *Reduced_Data* are not easy to read, following suggested *Renaming rules* ro better understanding the column data are applied to the column names, i.e. a column name is renamed according to the *Renaming rules* if the column name fulfils one ore more *Renaming rules*.
+Since the column names in *Reduced_Data* are not easy to read, following suggested *Renaming rules* for better understanding the column data are applied to the column names, i.e. a column name is renamed according to the *Renaming rules* if the column name fulfils one ore more *Renaming rules*.
 
 * *Renaming rules:* 
   + 't' will be replaced by 'Time '
