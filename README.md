@@ -67,3 +67,11 @@ Since the column names in *Reduced_Data* are not easy to read, following suggest
 'fBodyBodyGyroJerkMag-mean()' will be 'Frequency Body Angular velocity Jerk Magnitude-mean'*
 
 ### Step 5: Creation of tidy data set with average of each variable for each activity and each subject
+In the last step of the source code the average value for each activity and each subject is calculated. Since *Reduced_data* includes as alos the activity and the subject values as forelast and last column respectively and has to be exluded from the column average calculation the first column (*firstcoi*) and last column (*lastcoi*) of the range of interest for the calculation will be defined.
+
+1. *firstcoi* and *lastcoi* of the range of interest are set.
+2. The average value for each activity and each subject is calculated.
+3. A *Result* directory is created and the output file *Mean_Data_Set.dat* will be saved in there.
+4. All unnecessary variables are removed from the environment.
+
+After executing **run_analysis.R** only *Reduced_Data* and the variable *mypath* (see CODEBOOK.MD) are stored in the environment
