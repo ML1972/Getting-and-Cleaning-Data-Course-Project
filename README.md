@@ -52,4 +52,13 @@ In the following chapters a short description of the source code will be given, 
 ### Step 4: Replace data set labels with appropiate descriptive variable names
 Since the column names in *Reduced_Data* are not easy to read, following suggested *Renaming rules* ro better understanding the column data are applied to the column names, i.e. a column name is renamed according to the *Renaming rules* if the column name fulfils one ore more *Renaming rules*.
 
+* *Renaming rules:* 
++ 't' will be replaced by 'Time '
++ 'f' will be replaced by 'Frequency '
++ 'Acc' will be replaced by ' Acceleration ' 
++ 'Gyro' will be replaced by ' Angular velocity '
++ 'Mag' will be replaced by ' Magnitude '
++ '()' will be removed
++
+
 ### Step 5: Creation of tidy data set with average of each variable for each activity and each subject
