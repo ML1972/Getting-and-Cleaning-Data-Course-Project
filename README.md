@@ -5,7 +5,7 @@ The R script **run_analysis.R** downloads project data from
 
 *https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip*
 
-and subsequently unzips it. The unzipped project data includes raw data sets with corresponding description files (like meaning of variables, folder structure, ...). Afterwards the different raw data sets of interest will be merged and subsetted the avererage value for each column of interest will be calculated.
+and subsequently unzips it. The unzipped project data includes raw data sets with corresponding description files (like meaning of variables, folder structure, ...). Afterwards the different raw data sets of interest will be merged and subsetted and the avererage value of each column of interest will be calculated.
 
 The source code is structured in following steps
 
