@@ -1,6 +1,11 @@
 # GETTING AND CLEANING DATA COURSE - FINAL PROJECT
 
 ## PRELIMINARY REMARKS
+The R script **run_analysis.R** loads the raw data from
+
+*https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip*
+
+and subsequently unzips it. 
 
 
 ## SOURCE CODE STRUCTURE
