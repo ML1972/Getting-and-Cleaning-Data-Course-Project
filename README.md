@@ -1,2 +1,4 @@
-# Getting-and-Cleaning-Data-Course-Project
+# GETTING AND CLEANING DATA COURSE - FINAL PROJECT
+
+## The Raw Data
 
