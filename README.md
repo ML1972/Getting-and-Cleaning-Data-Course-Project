@@ -23,7 +23,11 @@ At the beginning of **run_analysis.R** a short description of goals is given
 In the following chapters a short description of the source code will be given, to give an overview what will be done in each step. The variables used are defined in described in the code book *CODEBOOK.MD*. 
 
 ### Preliminary settings
-First of all necessary packages for this source code will be loaded and any existing objects will be removed from the environment.
+
+1. All necessary packages for this source code will be loaded and any existing objects will be removed from the environment.
+2. The directory, where the zipped data should be loaded, is defined ("SamsungData") and if necessary is created.
+3. The data from given URL(see above) will be downloaded and unzipped into the directory mentiond in point 2.
+4. Different directories and filenames are defined
 
 ### Step 1: Merging data sets
 
