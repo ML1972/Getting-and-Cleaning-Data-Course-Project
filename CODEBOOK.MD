@@ -120,5 +120,5 @@ Directory where output file is stored
 Output filename (Mean_Data_Set.dat) where **groupmean** is stored
 
 ## FUNCTION
-FUnction *function(x) colMeans(x[, firstcoi:lastcoi])* calculates the average value of each column of range of interest
+Function *function(x) colMeans(x[, firstcoi:lastcoi])* calculates the average value of each column of range of interest
 
